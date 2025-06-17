@@ -72,8 +72,8 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-turboacc" "chenmozhijin/turboacc" "luci"
 UPDATE_PACKAGE "turboaccpackage" "chenmozhijin/turboacc" "package"
-UPDATE_PACKAGE "nas" "linkease/nas-packages" "master" "" "quickstart"
-UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main" "" "luci-app-quickstart luci-app-store"
+#UPDATE_PACKAGE "nas" "linkease/nas-packages" "master" "" "quickstart"
+#UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main" "" "luci-app-quickstart luci-app-store"
 
 #更新软件包版本
 UPDATE_VERSION() {
