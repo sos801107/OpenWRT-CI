@@ -13,8 +13,8 @@ mkdir -p files/root
 wget -qO- https://raw.githubusercontent.com/sos801107/TP-Link-TL-XDR6086/refs/heads/main/etc/.profile > files/root/.profile
 
 ## golang 为 1.25.x
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
 
 # 必要的补丁
 pushd feeds/luci
