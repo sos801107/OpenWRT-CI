@@ -16,6 +16,9 @@ wget -qO- https://raw.githubusercontent.com/sos801107/TP-Link-TL-XDR6086/refs/he
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
 
+rm -rf feeds/packages/net/v2ray-plugin
+rm -rf feeds/packages/net/xray-core
+
 # 必要的补丁
 pushd feeds/luci
    curl -s https://raw.githubusercontent.com/oppen321/path/refs/heads/main/Firewall/0001-luci-mod-status-firewall-disable-legacy-firewall-rul.patch | patch -p1
