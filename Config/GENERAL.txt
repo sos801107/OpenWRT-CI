@@ -15,7 +15,9 @@ CONFIG_PACKAGE_luci-app-wolplus=n
 
 CONFIG_PACKAGE_quickstart=y
 CONFIG_PACKAGE_luci-app-quickstart=y
-CONFIG_PACKAGE_luci-app-store=n
+CONFIG_PACKAGE_luci-app-store=y
+CONFIG_PACKAGE_luci-app-istorex
+CONFIG_PACKAGE_luci-lib-taskd
 
 CONFIG_PACKAGE_luci-app-ksmbd=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
