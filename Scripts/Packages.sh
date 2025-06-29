@@ -71,13 +71,13 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 #UPDATE_PACKAGE "luci-app-vlmcsd" "AutoCONFIG/luci-app-vlmcsd" "master"
-UPDATE_PACKAGE "kenzok8" "kenzok8/openwrt-packages" "master" "" "luci-app-store"
+#UPDATE_PACKAGE "kenzok8" "kenzok8/openwrt-packages" "master" "" "luci-app-store"
 
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-turboacc" "chenmozhijin/turboacc" "luci"
 UPDATE_PACKAGE "turboaccpackage" "chenmozhijin/turboacc" "package"
-UPDATE_PACKAGE "nas" "linkease/nas-packages" "master" "" "quickstart"
-UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main" "" "luci-app-quickstart"
+#UPDATE_PACKAGE "nas" "linkease/nas-packages" "master" "" "quickstart"
+#UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main" "" "luci-app-quickstart"
 
 #更新软件包版本
 UPDATE_VERSION() {
