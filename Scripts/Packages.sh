@@ -71,7 +71,7 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 #UPDATE_PACKAGE "luci-app-vlmcsd" "AutoCONFIG/luci-app-vlmcsd" "master"
-#UPDATE_PACKAGE "kiddin9" "kiddin9/kwrt-packages" "main" "" "luci-app-passwall vlmcsd"
+UPDATE_PACKAGE "kiddin9" "kiddin9/kwrt-packages" "main" "" "luci-app-store"
 
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-turboacc" "chenmozhijin/turboacc" "luci"
