@@ -34,7 +34,7 @@ jobs:
       matrix:
         CONFIG: [MEDIATEK, ROCKCHIP, X86]
         SOURCE: [immortalwrt/immortalwrt]
-        BRANCH: [openwrt-24.10]
+        BRANCH: [master]
         
         #SOURCE: [VIKINGYFY/immortalwrt]
         #BRANCH: [owrt]
