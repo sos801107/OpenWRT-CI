@@ -70,8 +70,8 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
-rm -rf package/feeds/packages/sing-box
-UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
+#rm -rf package/feeds/packages/sing-box
+#UPDATE_PACKAGE "sing-box" "sos801107/packages" "main" "" "sing-box"
 
 
 #UPDATE_PACKAGE "luci-app-vlmcsd" "AutoCONFIG/luci-app-vlmcsd" "master"
