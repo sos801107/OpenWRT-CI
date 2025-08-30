@@ -42,4 +42,4 @@ CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_zyxel_ex5700-telenor=y
 CONFIG_LINUX_6_12=y
 CONFIG_PACKAGE_luci-app-passwall=n
 CONFIG_PACKAGE_luci-app-mosdns=n
-CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-openclash=n
